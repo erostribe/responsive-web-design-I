@@ -65,13 +65,14 @@ h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* MY CODE STARTS HERE */
 
 .container {
     max-width: 880px;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 800px){
     .container {
         max-width: 800px;
         margin:0 auto;
@@ -79,26 +80,27 @@ h5 {
 }
 
 h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* .static-navbar {
-    position: fixed;
-    top: 0;
-    width: 880px;
-    background-color: rgb(0, 93, 189);
-    z-index: 5;
-    margin: 0 auto;
-}*/
+  position: fixed;
+  top: 0;
+  width: 880px;
+  background-color: rgb(0, 93, 189);
+  z-index: 5;
+  margin: 0 auto;
+} */
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 880px;
-    margin: 20px auto 0 auto;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 880px;
+  margin: 20px auto 0 auto;
+  position: relative;
 }
+
 
 @media (max-width: 800px){
     nav {
@@ -296,5 +298,8 @@ section-one div {
         display: flex;
         flex-direction: column;
         align-content: space-between;
+    }
+    @media (max-width: 800px) {
+        address 
     }
 }
